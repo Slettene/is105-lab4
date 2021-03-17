@@ -1,18 +1,13 @@
 
   338  gcc readfile.c -o readfile
-  339  strace -c readfile
-  340  strace -c readfile.c
   341  strace -c ./readfile
-  342  nano readfile
-  343  nano readfile.c
-  344  nano foo.txt
+  344  nano foo.txt (legge til noe mer)
   345  gcc readfile.c -o readfile
   346  strace -c ./readfile
   347  gcc writefile.c -o writefile
   348  strace -c ./writefile 
-  349  ls
-  350  nano bar.txt 
-  351  nano writefile.c 
+  349  ls 
+  351  nano writefile.c (legge til noe mer)
   352  gcc writefile.c -o writefile
   353  strace -c ./writefile 
   354  ls
