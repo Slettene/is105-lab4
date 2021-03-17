@@ -9,6 +9,7 @@ int main() {
         perror("feil ved skriving av filen"); exit(1);
     }
     sz = write(fd, "Hello\0", 6);
+sz = write(fd, "Hello\0", 6);
 
     close(fd);
 }

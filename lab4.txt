@@ -1,0 +1,360 @@
+    1  ls
+    2  pwd
+    3  mkdir IS105
+    4  cd IS105/
+    5  git init
+    6  git remote add https://github.com/Slettene/is105-lab3.git
+    7  git status
+    8  git remote add master https://github.com/Slettene/is105-lab3.git
+    9  git status
+   10  git pull origin master
+   11  git status
+   12  git pull https://github.com/Slettene/is105-lab3.git
+   13  git status
+   14  ls
+   15  git remote
+   16  mkdir test
+   17  git status
+   18  nano test123
+   19  git status
+   20  git add test123
+   21  git commit -m "Testfil lagt til"
+   22  git config --global user.email "sslettene1@gmail.com"
+   23  git config --global user.name "Slettene"
+   24  git commit -m "Testfil lagt til"
+   25  git push master 
+   26  git push main
+   27  git status
+   28  git push origin main
+   29  git push origin master
+   30  ls
+   31  git push -u origin master
+   32  git push -u master
+   33  git status
+   34  git checkout -b test
+   35  ls
+   36  git push origin main
+   37  git status
+   38  git push origin
+   39  git push origin test
+   40  git push test
+   41  git push --set-upstream test test
+   42  git push --set-upstream test
+   43  git push -u origin main
+   44  git status
+   45  git clone https://github.com/Slettene/is105-lab3.git
+   46  git status
+   47  ls
+   48  ls -la
+   49  git add is105-lab3/
+   50  git status
+   51  git rm --cached is105-lab3/
+   52  ls
+   53  git status
+   54  ls
+   55  ls -la
+   56  rm -r ./.git
+   57  git status
+   58  ls -la
+   59  rm test123 
+   60  cd
+   61  ls
+   62  git status
+   63  ls -la
+   64  dc IS105/
+   65  ls -la
+   66  cd IS105/
+   67  ls -ls
+   68  rm test/
+   69  cd ..
+   70  ls 
+   71  rm IS105/
+   72  rm -r IS105/
+   73  pwd
+   74  ls
+   75  rm -f IS105/
+   76  rm -f -r IS105/
+   77  ls
+   78  mkdir is105test
+   79  cd is105test/
+   80  ls
+   81  git init
+   82  ls -la
+   83  pwd
+   84  git clone https://github.com/Slettene/is105-lab3.git
+   85  ls 
+   86  ls -la
+   87  rm -r ./.git
+   88  cd is105-lab3/
+   89  ls -l
+   90  ls -la
+   91  nano text.txt
+   92  git status
+   93  git add text.txt 
+   94  git commit -m "la til fil test"
+   95  git status
+   96  git push origin main 
+   97  clear
+   98  nasm -v
+   99  sudo apt install nasm
+  100  sudo apt-get update -y
+  101  sudo apt install nasm
+  102  nasm -v
+  103  gcc -v
+  104  sudo apt install gcc
+  105  gcc -v
+  106  clear
+  107  pwd
+  108  ls
+  109  time gcc hello.c
+  110  time hello.asm
+  111  java -v
+  112  sudo apt install openjdk-14--jre-headless
+  113  sudo apt-get update openjdk-14--jre-headless
+  114  sudo apt install openjdk-14--jre-headless
+  115  sudo apt install openjdk-14-jre-headless
+  116  ls
+  117  nano hello.java
+  118  java hello.java
+  119  javac hello.java
+  120  ls
+  121  cd is105test/
+  122  ls
+  123  cd is105-lab3/
+  124  ls
+  125  javac hello.java
+  126  cat hello.java
+  127  sudo apt install  java
+  128  sudo apt install jdk
+  129  sudo apt install java
+  130  sudo apt install default-jdk
+  131  pwd
+  132  ls
+  133  cd is105test/
+  134  cd is105-lab3/
+  135  ls
+  136  javac hello.java
+  137  nano hello.java
+  138  javac hello.java
+  139  java hello
+  140  java hello.java
+  141  time ./hello
+  142  time ./hello.java
+  143  time ./hello
+  144  ls
+  145  ls- la
+  146  -ls -la
+  147  ls -la
+  148  chmod +x hello.class
+  149  chmod +x Hello.class
+  150  ls -la
+  151  time ./hello.class
+  152  time java hello
+  153  øs
+  154  ls
+  155  time Hello.class
+  156  time ls
+  157  time hello.o
+  158  time ./hello.o
+  159  time -o hello.o
+  160  clear
+  161  ls
+  162  time hello.java
+  163  time hello
+  164  time hello.c
+  165  nasm -v
+  166  gcc -v
+  167  time java hello
+  168  time java Hello
+  169  ld hello.o -o hello
+  170  time java Hello
+  171  ls
+  172  nasm -v
+  173  gcc -v
+  174  time ./hello
+  175  nasm -f elf64 hello.asm -o hello.o
+  176  ld hello.o -o hello
+  177  ./hello
+  178  time ./hello
+  179  time java Hello
+  180  py
+  181  sudo apt install pythonpy
+  182  py
+  183  python
+  184  python3
+  185  nano hello.py
+  186  python3 hello.py
+  187  time python3 hello.py
+  188  strace sl
+  189  strace
+  190  ls
+  191  cd ..
+  192  ls
+  193  mkdir is105-git-lab4
+  194  sudo mkdir is105-git-lab4
+  195  cd is105-git-lab4/
+  196  git init
+  197  sudo git init
+  198  git clone https://github.com/Slettene/is105-lab4.git
+  199  git status
+  200  chmod 
+  201  cd ..
+  202  lø
+  203  l
+  204  cd ..
+  205  ls
+  206  pwd
+  207  cd home/
+  208  pwd
+  209  ls
+  210  cd is105-git-lab4/
+  211  cd..
+  212  cd ..
+  213  chmod +rwx is105-git-lab4/
+  214  sudo chmod +rwx is105-git-lab4/
+  215  cd is105-git-lab4/
+  216  git status
+  217  clone https://github.com/Slettene/is105-lab4.git
+  218  git clone https://github.com/Slettene/is105-lab4.git
+  219  chmod +rmx .git/
+  220  chmod +rwx .git/
+  221  sudo chmod +rwx .git/
+  222  git clone https://github.com/Slettene/is105-lab4.git
+  223  git status
+  224  chmod 
+  225  ls -la
+  226  cd ..
+  227  ls -la
+  228  cd is105-git-lab4/
+  229  ls -la
+  230  cd ..
+  231  mkdir heihei
+  232  pwd
+  233  mkdir heihei
+  234  cd..
+  235  cd ..
+  236  ls
+  237  cd slettene/
+  238  cd ..
+  239  ls
+  240  cd is
+  241  cd is105-git-lab4/
+  242  rm -r ./.git
+  243  ls
+  244  ls -la
+  245  ls 
+  246  sudo rm -r ./.git
+  247  ls -la
+  248  cd ..
+  249  ls
+  250  rm is105-git-lab4/
+  251  rm -r is105-git-lab4/
+  252  sudo -r rm is105-git-lab4/
+  253  ls
+  254  cd slettene/
+  255  pwd
+  256  mkdir
+  257  mkdir Lab4
+  258  rm -r Lab4/
+  259  mkdir lab4
+  260  ls
+  261  cd lab4/
+  262  git init
+  263  git clone https://github.com/Slettene/is105-lab4.git
+  264  ls
+  265  git status
+  266  ls
+  267  ls -la
+  268  cd is105-lab4/
+  269  ls
+  270  cd ..
+  271  ls
+  272  cd ..
+  273  pwd
+  274  ls
+  275  cd is105test/
+  276  ls
+  277  cd is105-lab3/
+  278  ls
+  279  strace -c ./hello
+  280  nano lesefil.c
+  281  cat lesefil.c 
+  282  nano fil.txt
+  283  nano lesefil.c 
+  284  cat lesefil.c 
+  285  gcc lesefil.c 
+  286  nano lesefil.c 
+  287  gcc lesefil.c 
+  288  nano lesefil.c 
+  289  gcc lesefil.c 
+  290  cat lesefil.c 
+  291  nano lesefil.c 
+  292  gcc lesefil.c 
+  293  nano lesefil.c 
+  294  gcc lesefil.c 
+  295  nano lesefil.c 
+  296  gcc lesefil.c 
+  297  nano lese
+  298  nano lesefil.c 
+  299  strace -c lesefil.c 
+  300  gcc lesefil.c
+  301  cat lesefil.c 
+  302  #include <stdio.h>
+  303  #include <stdlib.h>
+  304  int main() {
+  305  }
+  306  nano lesefil.c 
+  307  clear
+  308  cat lesefil.c 
+  309  l
+  310  strace -o hello
+  311  strace -c hello
+  312  strace -c ./hello
+  313  nano text.txt 
+  314  cd ..
+  315  ls
+  316  cd .
+  317  cd ..
+  318  ls
+  319  cd is105test/
+  320  ls
+  321  cd is105-lab3/
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd ..
+  326  ls
+  327  cd lab4/
+  328  ls
+  329  cd is105-lab4/
+  330  ls
+  331  strace -c bar.txt 
+  332  strace -c foo.txt 
+  333  strace -c readfile.c
+  334  strace -c readfile..c
+  335  gcc bar.txt 
+  336  gcc readfile.c -o readfile
+  337  clear
+  338  gcc readfile.c -o readfile
+  339  strace -c readfile
+  340  strace -c readfile.c
+  341  strace -c ./readfile
+  342  nano readfile
+  343  nano readfile.c
+  344  nano foo.txt
+  345  gcc readfile.c -o readfile
+  346  strace -c ./readfile
+  347  gcc writefile.c -o writefile
+  348  strace -c ./writefile 
+  349  ls
+  350  nano bar.txt 
+  351  nano writefile.c 
+  352  gcc writefile.c -o writefile
+  353  strace -c ./writefile 
+  354  ls
+  355  gcc fork.c -o fork
+  356  strace -c ./fork
+  357  nano fork.c
+  358  gcc fork.c -o fork
+  359  strace -c ./fork
+  360  history > lab4.txt
